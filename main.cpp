@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
     if (argc < 2) {
         printf("glbToUnlitGlb.exe lit_input.glb unlit_output.glb\n");
         return 1;
-    } else if (argc >= 2) {
+    } else if (argc == 2) {
         input_path = argv[1];
         printf("input path=%s\n", input_path);
     } else if (argc >= 3) {
